@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34407.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{78F7D698-9339-4710-97CC-8DA2D0C6FF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionExplicita-Implicita-ConObjetos", "ConversionExplicita-Implicita-ConObjetos\ConversionExplicita-Implicita-ConObjetos.csproj", "{7C5E4C58-E876-4604-985C-0D4ECB4F0337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78F7D698-9339-4710-97CC-8DA2D0C6FF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F7D698-9339-4710-97CC-8DA2D0C6FF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F7D698-9339-4710-97CC-8DA2D0C6FF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F7D698-9339-4710-97CC-8DA2D0C6FF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5E4C58-E876-4604-985C-0D4ECB4F0337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5E4C58-E876-4604-985C-0D4ECB4F0337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5E4C58-E876-4604-985C-0D4ECB4F0337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5E4C58-E876-4604-985C-0D4ECB4F0337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D70E7E3-9F12-4014-A245-E824543D98FF}
+	EndGlobalSection
+EndGlobal
