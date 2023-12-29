@@ -20,5 +20,10 @@ namespace ConversionExplicita_Implicita_ConObjetos
             this.edad = edad;
             this.division = division;
         }
+
+        public static explicit operator Alumno(Docente auxDocente)
+        {
+            Alumno auxAlumno = new Alumno();
+        }
     }
 }

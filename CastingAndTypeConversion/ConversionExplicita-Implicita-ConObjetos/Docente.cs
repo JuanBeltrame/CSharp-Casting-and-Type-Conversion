@@ -8,8 +8,8 @@ namespace ConversionExplicita_Implicita_ConObjetos
 {
     internal class Docente
     {
-        string nombre;
         string apellido;
+        string nombre;
         int edad;
         int cantidadAulasAsignadas;
 
