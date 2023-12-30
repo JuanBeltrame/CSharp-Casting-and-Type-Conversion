@@ -3,8 +3,15 @@ using ConversionExplicita_Implicita_ConObjetos;
 
 Docente[] docentes = new Docente[10];
 
-Docente docenteAux = new Docente("Pepe", "Peposo", 10, 1);
+Docente docenteAux1 = new Docente("Pepe", "Peposo", 10, 1);
 
-Alumno miAlumno;
+Alumno miAlumnoAux = new Alumno("Romeo", "Gatuso", 20);
 
-miAlumno = (Alumno) docenteAux;
+Alumno miAlumno1;
+Alumno miAlumno2;
+
+miAlumno1 = (Alumno) docenteAux1;
+
+docenteAux1 = miAlumnoAux;
+
+string nombreYApellidoDocente = docenteAux1;

@@ -8,22 +8,30 @@ namespace ConversionExplicita_Implicita_ConObjetos
 {
     internal class Alumno
     {
-        string nombre;
-        string apellido;
-        int edad;
-        string division;
+        public string nombre;
+        public string apellido;
+        public int edad;
+        public string division;
 
         public Alumno(string nombre, string apellido, int edad, string division)
+            :this(nombre, apellido, edad)
+        {
+            this.division = division;
+        }
+
+        public Alumno(string nombre, string apellido, int edad)
         {
             this.nombre = nombre;
             this.apellido = apellido;
             this.edad = edad;
-            this.division = division;
         }
 
         public static explicit operator Alumno(Docente auxDocente)
         {
-            Alumno auxAlumno = new Alumno();
+            return new Alumno(auxDocente.nombre, auxDocente.apellido, auxDocente.edad, "Sin Division");
         }
+
+        
+
     }
 }
