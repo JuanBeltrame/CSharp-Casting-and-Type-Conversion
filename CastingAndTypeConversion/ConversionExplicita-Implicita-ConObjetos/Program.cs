@@ -15,3 +15,5 @@ miAlumno1 = (Alumno) docenteAux1;
 docenteAux1 = miAlumnoAux;
 
 string nombreYApellidoDocente = docenteAux1;
+Console.WriteLine(nombreYApellidoDocente);
+Console.ReadKey();
